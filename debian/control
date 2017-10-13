@@ -1,0 +1,17 @@
+Source: huayra-nvtnu1bci7
+Section: misc
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 9.0.0),
+Standards-Version: 3.9.6
+Homepage: https://github.com/HuayraLinux/huayra-nvtnu1bci7
+Vcs-Git: https://github.com/HuayraLinux/huayra-nvtnu1bci7.git
+Vcs-Browser: https://github.com/HuayraLinux/huayra-nvtnu1bci7
+
+Package: huayra-nvtnu1bci7
+Architecture: amd64
+Depends: ${misc:Depends},
+Description: Paquete de soporte de dispositivo 2017 (NVTNU1BCI7)
+ Este paquete contiene los drivers o arreglos necesarios
+ para ejecutar Huayra en los dispositivos 2017 modelo de
+ referencia NVTNU1BCI7
